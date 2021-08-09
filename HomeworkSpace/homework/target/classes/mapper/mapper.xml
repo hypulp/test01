@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.kr.homework.service.impl.HwMapper">
+<select id="cnt" resultType="int">
+select count(*) from dept
+</select>
+<select id="board" resultType="hashMap">
+select loc from dept
+</select>
+</mapper>
